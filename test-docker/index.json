@@ -1,0 +1,20 @@
+{
+	"title": "Docker-testing 2.12",
+	"description": "using docker will try to run some commands",
+	"details": {
+		"intro": {
+			"text": "intro.md"
+		},
+		"steps": [{
+			"title": "Build a docker image",
+			"text": "step1/text.md",
+			"verify": "step1/verify.sh"
+		}],
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"backend": {
+		"imageid": "kubernetes-kubeadm-2nodes"
+	}
+}

@@ -1,27 +1,29 @@
 {
-  "title": "Kubernetes-first_one",
-  "description": "Uses a two node Kubernetes cluster and performs user input verification in all steps",
+  "title": "Docker-Commit",
+  "description": "Docker test-1",
+  "time": "15 minutes",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Create a pod",
+        "title": "Run the docker image",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Delete a pod",
+        "title": "commit the docker container",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
       }
     ],
     "finish": {
       "text": "finish.md"
+
     }
-  },
-  "backend": {
-    "imageid": "kubernetes-kubeadm-2nodes"
-  }
+},
+"backend": {
+  "imageid": "kubernetes-kubeadm-2nodes"
+}
 }

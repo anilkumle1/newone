@@ -1,0 +1,33 @@
+{
+  "title": "Docker with Nginx",
+  "description": "Docker test-4",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Run a docker image",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Nginx web server",
+        "text": "step2/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "app.py", "target": "~/", "chmod": "+w"},
+        {"file": "nginx-install.sh", "target": "~/", "chmod": "+x"}
+      ]
+    }
+},
+"backend": {
+  "imageid": "kubernetes-kubeadm-2nodes"
+}
+}

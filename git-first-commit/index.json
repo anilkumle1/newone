@@ -1,0 +1,28 @@
+{
+  "title": "Git commit and push",
+  "description": "Git clone and push",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Git clone",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "app.py", "target": "~/", "chmod": "+w"},
+        {"file": "nginx-install.sh", "target": "~/", "chmod": "+x"}
+      ]
+    }
+},
+"backend": {
+  "imageid": "kubernetes-kubeadm-2nodes"
+}
+}

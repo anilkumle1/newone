@@ -1,0 +1,27 @@
+{
+  "title": "Write Dockerfile",
+  "description": "Docker test-5",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Run a docker image",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "app.py", "target": "~/", "chmod": "+w"}
+      ]
+    }
+},
+"backend": {
+  "imageid": "kubernetes-kubeadm-2nodes"
+}
+}

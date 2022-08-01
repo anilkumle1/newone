@@ -1,0 +1,29 @@
+{
+  "title": "Docker-Copy",
+  "description": "Docker test-2",
+  "time": "15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "copy files to the container",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+
+    },
+    "assets": {
+      "host01": [
+        {"file": "application.py", "target": "~/", "chmod": "+w"}
+      ]
+    }
+},
+"backend": {
+  "imageid": "kubernetes-kubeadm-2nodes"
+}
+}

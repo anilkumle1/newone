@@ -8,7 +8,7 @@ Write  a dockerfile for Webapp and NGINX
 
 Instruction to write the docker-compose file:
 
-### 1.DataBase Container
+# 1.DataBase Container
 
     Container_name should be `database`
     Bind the ports for Database "3306 & 33060"

@@ -20,10 +20,8 @@ specifying a static port where it will be accessible with type=NodePort and
   `gcr image use port 8080`
 
 
-### once you have done above steps access image content using this link:
+#### once you have done above steps access image content using this link:
 
-
-[ACCESS NGINX]({{TRAFFIC_HOST1_80}})
 
 It's also possible to access ports using the top-right navigation in the terminal.
 Or we can display the link to that page:

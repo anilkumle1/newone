@@ -7,9 +7,9 @@ Use any one below sample docker images
 
 Sample docker Images
 
-      `nginx:latest`
+      1. nginx:latest
 
-      `gcr.io/google-samples/hello-app:1.0`
+      2. gcr.io/google-samples/hello-app:1.0
 
 Next, expose the web deployment as a Kubernetes Service
 

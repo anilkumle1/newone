@@ -7,7 +7,7 @@
     },
     "steps": [
       {
-        "title": "Expose nginx app",
+        "title": "Expose Deployment app",
         "text": "step1/text.md"
       }
     ],

@@ -7,19 +7,19 @@ Use any one below sample docker images
 
 Sample docker Images:
 
-      `1. nginx:latest`
+      `nginx:latest`
 
-      or
+      `or`
 
-      `2. gcr.io/google-samples/hello-app:1.0`
+      `gcr.io/google-samples/hello-app:1.0`
 
 Next, expose the web deployment as a Kubernetes Service
 
 specifying a static port where it will be accessible with type=NodePort and
 
-` for nginx image use port 80`
+  `nginx image use port 80`
 
-  `for gcr image use port 8080`
+  `gcr image use port 8080`
 
 
 ### once you have done above steps access image content using this link:

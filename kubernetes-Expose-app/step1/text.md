@@ -5,11 +5,9 @@ You can use the kubectl command to deploy a test application
 
 Use any one below sample docker images
 
-Sample docker Images:
+Sample docker Images
 
       `nginx:latest`
-
-      `or`
 
       `gcr.io/google-samples/hello-app:1.0`
 

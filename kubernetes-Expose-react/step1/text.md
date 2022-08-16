@@ -17,6 +17,10 @@ Build the Docker image
 
 tag docker image and push the Docker image to a Docker registry
 
+#### NOTE:
+
+docker images should tag like this `anilkumle/sample-testing:{anything}`
+
 Write yaml files for a deployment, service yaml files
 
 Deploy your application to kubernetes

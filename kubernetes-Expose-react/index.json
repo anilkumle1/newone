@@ -1,0 +1,21 @@
+{
+  "title": "Kubernetes-expose-react-app",
+  "description": "Exposing deployment application to the pulicly",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Expose Deployment react application",
+        "text": "step1/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

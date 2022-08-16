@@ -3,7 +3,8 @@
   "description": "Exposing deployment application to the pulicly",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh"
     },
     "steps": [
       {

@@ -6,6 +6,7 @@ cp -r java/jenkins_home /var/lib/docker/volumes
 
 chown -R ubuntu:ubutnu /var/lib/docker/volumes/jenkins_home/_data
 
+docker login -u anilkumle -p Athrz_lgn@123
 
 docker run -p 8080:8080 -v jenkins_home:/var/jenkins_home \
      -v /var/run/docker.sock:/var/run/docker.sock \

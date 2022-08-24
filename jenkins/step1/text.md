@@ -15,24 +15,24 @@ Add the JENKINSFILE and commit and push
 
 ### Required Credentails:
 
-Jenkins
+Jenkins:
 
-      username: `admin`   
+      username `admin`   
 
-      password: `admin@123`
+      password `admin@123`
 
-Github
+Github:
 
-    username:  `anilkumle1`
+    username `anilkumle1`
 
-    password:   `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`
+    password   `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`
 
 
-Dockerhub
+Dockerhub:
 
-    username: `anilkumle`
+    username `anilkumle`
 
-    password: `Athrz_lgn@123`
+    password `Athrz_lgn@123`
 
 ### Finally!
 

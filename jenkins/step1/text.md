@@ -23,9 +23,9 @@ Jenkins:
 
 Github:
 
-    username `anilkumle1`
+username `anilkumle1`
 
-    password   `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`
+password:   `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`
 
 
 Dockerhub:

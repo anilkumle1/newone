@@ -3,7 +3,7 @@
 
 ### NOTE: The build Should triggered automatically in the pipeline job.
 
-[ACCESS JENKINS]({{TRAFFIC_HOST1_8080}})
+click here to [ACCESS JENKINS]({{TRAFFIC_HOST1_8080}}) server
 
 Write a Jenkins pipeline to CLONE, BUILD and PUSH the docker images to DOCKER-HUB
 

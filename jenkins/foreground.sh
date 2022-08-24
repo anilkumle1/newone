@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://anilkumle1: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@github.com/anilkumle1/java.git
+git clone https://anilkumle1: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@github.com/anilkumle1/java.git
 
 cp -r java/jenkins_home /var/lib/docker/volumes
 sleep 2

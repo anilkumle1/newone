@@ -1,7 +1,7 @@
 
 ### Jenkins challenge
 
-### NOTE: The build is triggered automatically in the pipeline job.
+### NOTE: The build Should triggered automatically in the pipeline job.
 
 Write a Jenkins pipeline to CLONE, BUILD and PUSH the docker images to DOCKER-HUB
 
@@ -15,20 +15,20 @@ Add the JENKINSFILE and commit and push
 
 ### Required Credentails:
 
-Jenkins:
+Jenkins
 
       username: `admin`   
 
       password: `admin@123`
 
-Github:
+Github
 
     username:  `anilkumle1`
 
     password:   `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`
 
 
-Dockerhub:
+Dockerhub
 
     username: `anilkumle`
 

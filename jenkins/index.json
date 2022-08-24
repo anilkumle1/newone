@@ -1,6 +1,6 @@
 {
   "title": "Jenkins",
-  "description": "Build a docker image and push to registry with the help og jenkins pipeline",
+  "description": "Build and push docker images to the registry with the help of jenkins pipeline",
   "details": {
     "intro": {
       "text": "intro.md",

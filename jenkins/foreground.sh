@@ -8,6 +8,8 @@ chown -R ubuntu:ubuntu /var/lib/docker/volumes/jenkins_home/_data
 
 docker login -u anilkumle -p Athrz_lgn@123
 
+cd /var/lib/docker/volumes/jenkins_home && chown -R ubuntu:ubuntu _data
+
 docker run -itd -p 8080:8080 -v jenkins_home:/var/jenkins_home \
      -v /var/run/docker.sock:/var/run/docker.sock \
        -v $(which docker):/usr/bin/docker anilkumle/jenkins:aug23

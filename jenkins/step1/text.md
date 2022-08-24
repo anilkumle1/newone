@@ -1,35 +1,46 @@
 
-Kubernetes challenge
+###Jenkins challenge
 
-Deploy this application in kubernetes and customise the environment variable to display your name.
+Write a Jenkins pipeline to CLONE, BUILD and PUSH the docker images to DOCKER-HUB
 
-Output Should be get like this:
+###NOTE: The build is triggered automatically in the pipeline job.
 
-Hello {YOUR NAME!}
+Clone the repo:
 
-### Instructions:
+    url: `https://github.com/anilkumle1/jenkins.git`
 
-Fork this repo
+This repo contains One python applicationa and Dockerfile
 
-GIR URL: `https://github.com/anilkumle1/killercode-kubernetes-react.git`
+  Add the jenkins file and push the code
 
-Build the Docker image
+ Build docker image and push docker images to Dockerhub via pipeline
 
-tag docker image and push the Docker image to a Docker registry
+docker image naming conversion:
 
-#### NOTE:
+ `anilkumle/sample-testing:{anything}`
 
-docker images should tag like this `anilkumle/sample-testing:{anything}`
 
-Write yaml files for a deployment, service yaml files
+Required Credentails:
 
-Deploy your application to kubernetes
+Jenkins:
+      username: `admin`     
+      password: `admin@123`
+Github:
+    username:  `anilkumle1`
+    password:   `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`
 
-You should be able to curl in the browser and retrieve the string Hello {yourname}!
+Dockerhub:
+    username: `anilkumle`
+    password: `Athrz_lgn@123`
 
-NOTE:
+Finally!!!!
 
-No need of docker login, it's already logged in 
+pull the newly pushed docker image and run the docker image
+
+  use port number 5300 and access the application using below links
+
+WE SHOULD GET IN BROWSER "Web App with Python Flask!"
+
 
 #### once you have done above steps access image content using this link:
 

@@ -1,14 +1,14 @@
-Description:
+### Description:
 
-If you have a already running container that you need to pass a file to how can you send that file to it?
+If you have a already running container that you need to pass a file, How can you send that file to it?
 
-Run instructions:
+### Run instructions:
 
 One method is to use the docker copy command to copy a file to (or from) a running container.
 
 First create a container and run a shell in it.
 
-Note that we are giving the container a name to make it easier to access later.
+Note that giving the container name to make it easier to access later.
 
 `docker run -it -d --name=mycontainer  alpine:3.16.0`
 

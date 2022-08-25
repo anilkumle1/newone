@@ -1,7 +1,8 @@
-Hosting a static site using Nginx web server:
+### Hosting a static site using Nginx web server:
 
 Run the shell script file to install the `Nginx web server`
-  script path ```/root/nginx-install.sh```{{copy}} and file name: `nginx-install`
+
+script path `/root/nginx-install.sh` and file name: `nginx-install.sh`
 
 The docker container is ruuning with port number 5300
 
@@ -9,7 +10,7 @@ Now write a nginx config file to server docker contents with nginx web servers
 
 mandatory fileds in nginx config file `Location and proxy path`
 
-Example nginx conf file:
+### Example nginx conf file:
 
 `server {
         listen 80;

@@ -27,7 +27,7 @@ password: `admin@123`
 
 username: `anilkumle1`
 
-password:   `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`
+password:   `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`
 
 
 ###      Dockerhub:

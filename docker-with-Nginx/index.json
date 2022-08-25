@@ -14,7 +14,6 @@
       {
         "title": "Nginx web server",
         "text": "step2/text.md",
-        "verify": "step1/verify.sh"
       }
     ],
     "finish": {
